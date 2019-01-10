@@ -15,5 +15,5 @@ HEADERS += include/imodel.h \
     include/iview.h \
     include/process.h
 
-LIBS += -L/home/vdubynkyn/ctop/model -lmodel
-LIBS += -L/home/vdubynkyn/ctop/view -lview
+LIBS += -L../model -lmodel
+LIBS += -L../view -lview
