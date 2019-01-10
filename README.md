@@ -1,3 +1,3 @@
-## ctop
+# ctop
 
-# Custom Linux “top” application
+## Custom Linux “top” application
