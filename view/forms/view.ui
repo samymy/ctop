@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>View</class>
+ <widget class="QMainWindow" name="View">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1281</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ctop</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableWidget" name="processesTableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>131</y>
+      <width>1261</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>PID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>USER</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>PR</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>NI</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>VIRT</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>RES</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>SHP</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>S</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>%CPU</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>%MEM</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TIME</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>COMMAND</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1261</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="general">
+       <property name="text">
+        <string>general</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="tasks">
+       <property name="text">
+        <string>tasks</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="cpu">
+       <property name="text">
+        <string>cpu</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="memory">
+       <property name="text">
+        <string>memory</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="swap">
+       <property name="text">
+        <string>swap</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
